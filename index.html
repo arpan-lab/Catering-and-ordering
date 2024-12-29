@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="hero">
+        <h1>Welcome to Traditional Indian Catering</h1>
+        <p>Experience authentic Indian catering services that bring tradition to your table.</p>
+    </header>
+
+    <main>
+        <!-- Menu Section -->
+        <section id="menu" class="section">
+            <h2>Our Menu</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="c:\Users\Arpan\Downloads\WhatsApp Image 2024-12-30 at 00.38.32.jpeg" alt="Dish 1">
+                    <h3>North Indian</h3>
+                    <p>₹499</p>
+                </div>
+                <div class="card">
+                    <img src="c:\Users\Arpan\Downloads\WhatsApp Image 2024-12-30 at 00.38.41.jpeg" alt="Dish 2">
+                    <h3>Italian</h3>
+                    <p>₹299</p>
+                </div>
+                <div class="card">
+                    <img src="c:\Users\Arpan\Downloads\WhatsApp Image 2024-12-30 at 00.38.53.jpeg" alt="Dish 3">
+                    <h3>South Indian</h3>
+                    <p>₹99</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation Section -->
+        <section id="reservation" class="section">
+            <h2>Reserve Our Catering Services</h2>
+            <form id="reservationForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Event Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Event Time</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" name="guests" min="1" required>
+                </div>
+                <button type="submit">Reserve Now</button>
+            </form>
+        </section>
+
+        <!-- Event Section -->
+        <section id="events" class="section">
+            <h2>Upcoming Events</h2>
+            <div class="card-container">
+                <div class="card">
+                   
+                    <h3>Diwali Feast</h3>
+                    <p>Celebrate Diwali with our special feast on Nov 4th.</p>
+                </div>
+                <div class="card">
+                    
+                    <h3>Wedding Specials</h3>
+                    <p>Join us for exclusive catering deals for weddings in December.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Traditional Indian Catering. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
